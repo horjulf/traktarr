@@ -4,7 +4,7 @@ ENV \
   # App directory
   APP_DIR=traktarr \
   # Branch to clone
-  BRANCH=master \
+  BRANCH=develop \
   # Config file
   TRAKTARR_CONFIG=/config/config.json \
   # Log file
