@@ -1,10 +1,13 @@
 FROM python:3.6-alpine3.7
 
+ARG \
+  BRANCH=${SOURCE_BRANCH}
+
 ENV \
   # App directory
   APP_DIR=traktarr \
   # Branch to clone
-  BRANCH=develop \
+  BRANCH=${BRANCH} \
   # Config file
   TRAKTARR_CONFIG=/config/config.json \
   # Log file
